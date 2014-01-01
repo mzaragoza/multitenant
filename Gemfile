@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.1'
-
+gem 'rails', '4.0.2'
+ruby '2.0.0'
+gem 'awesome_print'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 
@@ -43,3 +44,9 @@ end
 
 # Use debugger
 gem 'debugger', group: [:development, :test]
+
+gem 'devise'
+gem 'decent_exposure', :git => 'git://github.com/voxdolo/decent_exposure.git'
+gem 'fabrication-rails'
+gem 'ffaker'
+gem 'haml'
